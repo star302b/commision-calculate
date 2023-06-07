@@ -1,0 +1,29 @@
+{
+    "name": "commision-calculate/commision-calculate",
+    "description": "Commision calculate",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "^7.7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denys Miahkyi",
+            "email": "star302b@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CommisionCalculate\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CommisionCalculate\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.10"
+    }
+}
